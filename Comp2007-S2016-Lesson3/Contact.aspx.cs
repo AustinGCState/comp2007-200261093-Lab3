@@ -13,5 +13,11 @@ namespace Comp2007_S2016_Lesson3
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //This is a placeholer for working code that sends email
+            Response.Redirect("Default.aspx");
+        }
     }
 }
